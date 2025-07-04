@@ -45,4 +45,7 @@ public class Cart {
         }
         return result;
     }
+     public void clear() {
+        items.clear();
+    }
 }
